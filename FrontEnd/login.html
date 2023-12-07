@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sophie Bluel - Architecte d'intérieur</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+		rel="stylesheet">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="./assets/style.css">
+	
+</head>
+
+<body>
+	<header>
+		<h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1>
+		<nav>
+			<ul>
+				<li> <a href="index.html" class="submenu">projets</a></li>
+				<li><a href="#contact" class="submenu">contact </a></li>
+				<li ><a href="login.html" class="submenu" id="login">login</a></li>
+				<li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="introduction">
+            <div class="login-page">
+                <h1>log in</h1>
+				<div>
+					<div id="alert" class="alert alert-error" role="alert">
+						
+					</div>
+					
+				</div>
+                <div class="form">
+                  <form class="login-form"  id="login-form"   enctype='multipart/form-data' method="post">
+                    <div><label>Email</label>
+                    <input type="Email" id="email" /></div>
+                    <div><label>Mot de passe</label>
+                    <input type="password"  id="password"/></div>
+                    <div><button id="connexion" type="button" onclick="login()">se connecter</button></div>
+                    <div><a href="#">Mot de passe oublié</a></div>
+                    
+                  </form>
+                </div>
+              </div>
+	</section>
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li>Mentions Légales</li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+<script src="assets/js/login.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
